@@ -19,7 +19,7 @@ public class Person{
         this.surname = surname;
     }
 
-    public Person(String forename, String surname,int age){
+    public Person(String forename, String surname, int age){
         this.forename = forename;
         this.surname = surname;
         this.age = age;
@@ -61,14 +61,12 @@ public class Person{
         }
     }
     private boolean checkAge(int age){
-        boolean ok=true;
+        boolean ok;
         if (age<18)
             ok = false;
-
         else
             ok = true;
             return (ok);
-
     }
 
 }//end of class
