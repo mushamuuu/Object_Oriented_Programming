@@ -12,9 +12,10 @@ public class Person{
         this.getEmail();
         this.getMobile();
         this.getAge();
+        this.displayDetails();
     }
 
-    public Person(String forename, String surname){
+/*    public Person(String forename, String surname){
         this.forename = forename;
         this.surname = surname;
     }
@@ -23,7 +24,7 @@ public class Person{
         this.forename = forename;
         this.surname = surname;
         this.age = age;
-    }
+    }*/
     public void displayDetails() {
         System.out.println("Name  : "+forename+" "+surname);
         System.out.println("Email : "+email);
