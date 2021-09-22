@@ -7,8 +7,8 @@ public class Time {
         System.out.println("The time is " + hour +":"+ minute +":"+ second);
     }
 
-    public void setHour(int h){
-        hour = h;
+    public void setHour(int h){//12
+        this.hour = h;
     }
 
 //    public int  getHour(){
@@ -16,7 +16,7 @@ public class Time {
 //    }
 
     public void setMinute(int m){
-        minute = m;
+        this.minute = m;
     }
 
 //    public int getMinute(){
@@ -24,7 +24,7 @@ public class Time {
 //    }
 
     public void setSecond(int s){
-        second = s;
+        this.second = s;
     }
 
 //    public int getSecond(){
