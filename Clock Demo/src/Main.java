@@ -14,19 +14,13 @@ public class Main {
         DateTimeFormatter s = DateTimeFormatter.ofPattern("ss");
 
         executor.scheduleAtFixedRate(() -> {//using this instead of Thread.sleep()
-            while (true) {
-                try {
                     LocalTime now = LocalTime.now();
                     //parsing DateTimeFormatter to int
                     time.setHour(Integer.parseInt(h.format(now)));
                     time.setMinute(Integer.parseInt(m.format(now)));
                     time.setSecond(Integer.parseInt(s.format(now)));
                     time.displayTime();
-//                    Thread.sleep(1000);
-                } catch (Exception e) {
-                    System.out.println("Something went wrong.");
-                }
-            }
+                    //Thread.sleep(1000);
         }, 0, 1000, TimeUnit.MILLISECONDS);
     }
 }
