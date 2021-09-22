@@ -7,7 +7,7 @@ public class Time {
         System.out.println("The time is " + hour +":"+ minute +":"+ second);
     }
 
-    public void setHour(int h){//12
+    public void setHour(int h){
         this.hour = h;
     }
 
