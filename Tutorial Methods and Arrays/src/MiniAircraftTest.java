@@ -46,7 +46,7 @@ public class MiniAircraftTest {
         //int[] type = new int[nosseats];
         int choice;
         System.out.println("Booking Menu");
-        System.out.println("1. Book a seat, 2. Display all, 3. Cancel a seat, 4. Takings, 5. exit");
+        System.out.println("1. Book a seat, 2. Display all, 3. Cancel a seat, 4. Takings");
         System.out.println("Please enter choice (press 8 to continue)");
         choice = kboard.nextInt();
         do
