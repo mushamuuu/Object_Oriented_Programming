@@ -10,7 +10,10 @@ public class Time {
     private int hour;
     private int minute;
     private int second;
-
+/*
+* this method displays the time in HH:mm:ss
+*
+* */
     public void displayTime(){
         System.out.println("The time is " + hour +":"+ minute +":"+ second);
     }

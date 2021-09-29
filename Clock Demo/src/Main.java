@@ -13,8 +13,14 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
+/*
+ * This is the main method which makes use of Time.java methods.
+ * @param args Unused.
+ * @return Nothing.
+ */
+
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args){
         ScheduledExecutorService executor = Executors.newSingleThreadScheduledExecutor();
         Time time = new Time();
 
