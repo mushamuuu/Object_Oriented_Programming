@@ -13,7 +13,7 @@ public class Main {
         DateTimeFormatter m = DateTimeFormatter.ofPattern("mm");
         DateTimeFormatter s = DateTimeFormatter.ofPattern("ss");
 
-        executor.scheduleAtFixedRate(() -> {//using this instead of Thread.sleep()
+        executor.scheduleAtFixedRate(() -> {//using this instead of Thread.sleep(), loops every 1 second
                     LocalTime now = LocalTime.now();
                     //parsing DateTimeFormatter to int
                     time.setHour(Integer.parseInt(h.format(now)));
