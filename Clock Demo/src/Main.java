@@ -1,3 +1,12 @@
+/*
+  The Clock Demo program implements an application that
+  simply displays the time to the standard output every second.
+
+  @author  Lowell Perez
+ * @version 1.0
+ * @since   29-09-21
+ */
+
 import java.time.format.DateTimeFormatter;
 import java.time.LocalTime;
 import java.util.concurrent.Executors;
