@@ -45,8 +45,8 @@ public class NameGenerator {
         displayStarWarsName(conFirstName,conLastName, conMothersMaidenName, conPlaceOfBirth);
     }
     public void displayStarWarsName(String conFirstName, String conLastName, String conMothersMaidenName, String conPlaceOfBirth){
-        System.out.println("Please enter your new first name is " + conFirstName + conLastName);
-        System.out.println("Please enter your new last name is " + conMothersMaidenName + conPlaceOfBirth);
+        System.out.println("Your new first name is " + conFirstName + conLastName);
+        System.out.println("Your new last name is " + conMothersMaidenName + conPlaceOfBirth);
     }
 
 
