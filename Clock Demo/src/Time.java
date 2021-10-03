@@ -1,7 +1,6 @@
-/*
+/**
   The Clock Demo program implements an application that
   simply displays the time to the standard output every second.
-
   @author  Lowell Perez
  * @version 1.0
  * @since   29-09-21
@@ -10,7 +9,7 @@ public class Time {
     private int hour;
     private int minute;
     private int second;
-/*
+/**
 * this method displays the time in HH:mm:ss
 *
 * */

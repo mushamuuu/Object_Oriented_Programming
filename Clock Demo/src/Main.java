@@ -1,8 +1,7 @@
-/*
-  The Clock Demo program implements an application that
-  simply displays the time to the standard output every second.
-
-  @author  Lowell Perez
+/**
+ * The Clock Demo program implements an application that
+ * simply displays the time to the standard output every second.
+ * @author  Lowell Perez
  * @version 1.0
  * @since   29-09-21
  */
@@ -13,10 +12,8 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
-/*
+/**
  * This is the main method which makes use of Time.java methods.
- * @param args Unused.
- * @return Nothing.
  */
 
 public class Main {
