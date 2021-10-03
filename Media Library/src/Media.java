@@ -7,11 +7,12 @@ public class Media {
         mDesc = y;
     }
 
-    public String getmDesc() {
+    public String getmDescription() {
         return mDesc;
     }
 
     public String getmName() {
+
         return mName;
     }
 
@@ -19,7 +20,7 @@ public class Media {
         this.mName = mName;
     }
 
-    public void setmDesc(String mDesc) {
+    public void setmDesc(String mDescription) {
         this.mDesc = mDesc;
     }
 
