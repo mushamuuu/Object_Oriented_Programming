@@ -1,14 +1,15 @@
 public class Media {
     String mName;
-    String mDesc;
+    String mDescription;
 
     public Media(String x, String y){
         mName = x;
-        mDesc = y;
+        mDescription = y;
     }
 
     public String getmDescription() {
-        return mDesc;
+
+        return mDescription;
     }
 
     public String getmName() {
@@ -21,7 +22,7 @@ public class Media {
     }
 
     public void setmDesc(String mDescription) {
-        this.mDesc = mDesc;
+        this.mDescription = mDescription;
     }
 
 }
