@@ -1,20 +1,18 @@
 public class Media {
-    String mName;
-    String mDescription;
+    private String mName;
+    private String mDescription;
 
-    public Media(String x, String y){
-        mName = x;
-        mDescription = y;
+    public Media(String name, String desc){
+        this.mName = name;
+        this.mDescription = desc;
     }
 
     public String getmDescription() {
-
-        return mDescription;
+        return this.mDescription;
     }
 
     public String getmName() {
-
-        return mName;
+        return this.mName;
     }
 
     public void setmName(String mName) {

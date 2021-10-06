@@ -8,7 +8,6 @@ public class Main {
         String mName;
         String pOB;
 
-
         System.out.println("Star Wars Name Generator");
 
         System.out.print("Please enter your first name: ");
