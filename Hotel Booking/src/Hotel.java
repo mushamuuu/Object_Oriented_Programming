@@ -20,6 +20,7 @@ public class Hotel {
 
     public void display()
     {
+
         System.out.println("Hotel name: " + hotelName);
         for (int counter = 0; counter < floors.length; counter++)
         {

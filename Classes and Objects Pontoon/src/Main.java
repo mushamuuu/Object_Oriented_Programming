@@ -7,9 +7,9 @@ public class Main {
         Scanner kboard = new Scanner(System.in);
         final int houseMin = 16; //defines the minimum value of the house
         String choice;
-        int cardsDrawn[] = new int[10];//maximum number of cards which can be drawn will be 7
+        int[] cardsDrawn = new int[10];//maximum number of cards which can be drawn will be 7
         int cardvalue;
-        int cardCount = 3; //counts number of cards
+        int cardCount = 3;
         int card1, card2;
         int house;
         int total;

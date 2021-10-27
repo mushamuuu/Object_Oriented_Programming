@@ -18,7 +18,16 @@ public class Floor {
 
     public void displayFloor(){
         for(int counter = 0; counter < rooms.length; counter++)
+        {
+            int floorNumber = 0;
+            if (counter == 0)
+            {
+                floorNumber++;
+                System.out.println("Floor " + floorNumber);
+            }
             rooms[counter].display();
+        }
+
     }
 
     public void findARoomToBook()
