@@ -18,11 +18,11 @@ public class Pontoon {
         else
             return(false);
     }//end of busted
-    public static int houseTotal(int x)
+    public static int houseTotal(int houseMin)
     {
 
         int house=0;
-        while (house < x)
+        while (house < houseMin)
             house = calcTotal(RandomNumber.getRandomNumber(), RandomNumber.getRandomNumber());
         return(house);
     }//end of houseTotal

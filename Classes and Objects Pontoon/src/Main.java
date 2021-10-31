@@ -8,7 +8,7 @@ public class Main {
         final int houseMin = 16; //defines the minimum value of the house
         String choice;
         int[] cardsDrawn = new int[10];//maximum number of cards which can be drawn will be 7
-        int cardvalue;
+        int cardValue;
         int cardCount = 3;
         int card1, card2;
         int house;
@@ -25,10 +25,10 @@ public class Main {
         choice=kboard.nextLine();
         while (choice.equalsIgnoreCase("y"))
         {
-            cardvalue= RandomNumber.getRandomNumber();
-            cardsDrawn[cardCount++] = cardvalue;
-            System.out.println("You have drawn a "+cardvalue);
-            total= Pontoon.calcTotal(total,cardvalue);
+            cardValue= RandomNumber.getRandomNumber();
+            cardsDrawn[cardCount++] = cardValue;
+            System.out.println("You have drawn a "+cardValue);
+            total= Pontoon.calcTotal(total,cardValue);
             if (Pontoon.busted(total)==true)
             {
                 System.out.println("Busted your cards total "+total+" which is over 21");
