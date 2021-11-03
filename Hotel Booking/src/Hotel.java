@@ -16,12 +16,39 @@ public class Hotel {
         floors[1] = f2;
         floors[2] = f3;
         floors[3] = f4;
+
+    }
+
+    public void displayMenu()
+    {
+        Scanner kb = new Scanner(System.in);
+        int choice;
+        do
+        {
+            System.out.println("Please select from these options:");
+            System.out.println("1: Display rooms");
+            System.out.println("2: Book a room");
+            System.out.println("3: Cancel a room");
+            System.out.println("4: Exit");
+            choice = kb.nextInt();
+
+            switch (choice) {
+                case 1 -> display();
+                case 2 -> bookARoom();
+                case 3 -> CancelARoom();
+                case 4 -> System.out.println("Exit..");
+                default -> System.out.println("Please choose a valid option.");
+            }
+
+
+        }while(choice != 4);
+
     }
 
     public void display()
     {
 
-        System.out.println("Hotel name: " + hotelName);
+        System.out.println("Hotel name: " + hotelName + " " + hotelNumber);
         for (int counter = 0; counter < floors.length; counter++)
         {
             floors[counter].displayFloor();
